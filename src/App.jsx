@@ -397,6 +397,6 @@ const styles = {
   dashConfession: { color: "#c4b5fd", fontSize: 12, marginBottom: 12 },
   miniTable: { width: "100%", borderCollapse: "collapse", fontSize: 11 },
   miniTh: { color: "#94a3b8", padding: "4px", textAlign: "center", borderBottom: "1px solid rgba(255,255,255,0.08)" }
-  miniTd: { color: "#e2d9f3", padding: "3px 4px", textAlign: "center" },
+  miniTd: { color: "#e2d9f3", padding: "3px 4px", textAlign: "center" }
 };
 
