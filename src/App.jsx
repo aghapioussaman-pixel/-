@@ -465,4 +465,4 @@ const styles = {
   servantList: { display: "flex", flexDirection: "column", gap: 8, maxHeight: 380, overflowY: "auto", marginBottom: 20 },
   servantBtn: { background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 10, color: "#e2d9f3", padding: "10px 16px", cursor: "pointer", fontSize: 14, textAlign: "right" },
   seniorBtn: { background: "rgba(212,175,55,0.1)", border: "1px solid rgba(212,175,55,0.3)", color: "#fde68a" },
-  passwordSection: { display: "flex", fl
+  passwordSection: { display: "flex", fl};
