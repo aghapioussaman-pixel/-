@@ -522,3 +522,7 @@ const styles = {
   weekBtn: { backgroundColor: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "#94a3b8", borderRadius: 20, padding: "6px 12px", fontSize: 12, cursor: "pointer", transition: "all 0.2s" },
   weekBtnActive: { backgroundColor: "rgba(212,175,55,0.2)", border: "1px solid #d4af37", color: "#fde68a" }
 };
+
+}
+
+export default App;
