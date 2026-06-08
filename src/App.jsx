@@ -508,9 +508,10 @@ const styles = {
   confessionResult: { color: "#e2d9f3", fontSize: 14, background: "rgba(212,175,55,0.1)", borderRadius: 10, padding: "12px 16px" },
   dashGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 16 },
   dashCard: { background: "rgba(255,255,255,0.06)", borderRadius: 16, padding: "16px", border: "1px solid rgba(255,255,255,0.08)" },
-  dashName: { color: "#e2d9f3", fontSize: 14, fontWeight: "bold", marginBottom: 8 },
+  dasdashCard: { backgroundColor: "rgba(255,255,255,0.06)", borderRadius: 16, padding: "16px", border: "1px solid rgba(255,255,255,0.0)", marginBottom: 8 },
+  dashName: { color: "#e2d9f3", fontSize: 14, fontWeight: "bold", marginBottom: 4 },
   dashPct: { fontSize: 28, fontWeight: "bold", marginBottom: 4 },
-  dashBar: { height: 6, background: "rgba(255,255,255,0.1)", borderRadius: 3, overflow: "hidden", marginBottom: 6 },
+  dashBar: { height: 6, backgroundColor: "rgba(255,255,255,0.1)", borderRadius: 3, overflow: "hidden", marginBottom: 8 },
   dashBarFill: { height: "100%", borderRadius: 3, transition: "width 0.5s" },
   dashScore: { color: "#94a3b8", fontSize: 12, marginBottom: 4 },
   dashConfession: { color: "#94a3b8", fontSize: 11, marginBottom: 10 },
@@ -518,5 +519,6 @@ const styles = {
   miniTh: { color: "#64748b", padding: "4px 2px", textAlign: "center" },
   miniTd: { color: "#94a3b8", padding: "3px 2px", textAlign: "center" },
   weekSelector: { display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" },
-  weekBtn: { background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "#94a3b8", borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 12 },
-  weekBtnActive: { background: "rgba(212,175,55,0.2)", border: "1px solid #d4af37", color: "#fde68a" },
+  weekBtn: { backgroundColor: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "#94a3b8", borderRadius: 20, padding: "6px 12px", fontSize: 12, cursor: "pointer", transition: "all 0.2s" },
+  weekBtnActive: { backgroundColor: "rgba(212,175,55,0.2)", border: "1px solid #d4af37", color: "#fde68a" }
+};
