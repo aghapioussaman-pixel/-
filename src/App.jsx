@@ -521,7 +521,4 @@ const styles = {
   weekBtn: { background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "#94a3b8", borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 12 },
   weekBtnActive: { background: "rgba(212,175,55,0.2)", border: "1px solid #d4af37", color: "#fde68a" },
 };
-weekSelector: { display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" },
-  weekBtn: { background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "#94a3b8", borderRadius: 8, padding: "6px 14px", cursor: "pointer", fontSize: 12 },
-  weekBtnActive: { background: "rgba(212,175,55,0.2)", border: "1px solid #d4af37", color: "#fde68a" },
-};
+  
